@@ -10,28 +10,28 @@
 </head>
 <body>
 	
-	<header class="text=xl bg-grey-light flex justify-between p-4">
-		<h1>
-			<a class=" no-underline text-black hover:text-gray-darkest" href="#">
+	<header class="bg-grey-light lg:flex lg:items-center lg:justify-between p-4">
+		<h1 class="text-xl">
+			<a class="no-underline text-black hover:text-grey-darkest" href="#">
 				Tailwind Exercise
 			</a>
 		</h1>
 
 		<form>
-			<label class="sr-only" for="search-form">Seach</label>
-			<input type="search-form" type="Search">
+			<label class="sr-only" for="search-form">Search</label>
+			<input class="border border-black p-2 my-4 lg:my-0 rounded w-full lg:w-64" type="search-form" placeholder="Search..." type="Search">
 				<button class="sr-only">Search</button>
 		</form>
 
-		<nav>
+		<nav class="flex justify-end lg:block">
 			<ul class="flex items-center list-reset">
 				<li>
-					<a class="no-underline text-black hover:text-gray-darkest" href="#">
+					<a class="mr-4 no-underline text-black hover:text-grey-darkest" href="#">
 						Login
 					</a>
 				</li>
 				<li>
-					<a class="bg-black hover:bg-green-darker no-underline p-2 rounded text-white" href="#">
+					<a class="bg-black inline-block hover:bg-green-darker no-underline p-2 rounded text-white" href="#">
 						Register
 					</a>
 				</li>
